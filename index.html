@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>media theque</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./image/logo.png" />
+  </head>
+  <body>
+    <h1>Learn with Soli Code</h1>
+
+    <div class="navbar">
+      <button id="home">HOME</button>
+      <button id="about">ABOUT</button>
+      <button id="numbers" onclick="werina('number')">NUMBERS</button>
+      <button id="animals" onclick="werina('animal')">ANIMALS</button>
+      <button id="letter" onclick="werina('letter')">LETTERS</button>
+      <button id="Game">GAME</button>
+    </div>
+
+    <div class="video-container">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/lGEMQpxwIRI?si=jbTyk-Eo6vlMO9cp"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+    <br />
+    <div id="afficher" class="grid"></div>
+  </body>
+  <script src="./js/data.js"></script>
+  <script src="./js/main.js"></script>
+</html>
